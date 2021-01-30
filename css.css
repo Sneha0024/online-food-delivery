@@ -70,7 +70,9 @@ font-size: 1.6rem;
     padding: 3px 23px;
     justify-content: center;
     align-items: center;
+Background-color:light yellow;
     height: 200px;
+
 }
 #home::before{
     content: "";
@@ -79,6 +81,7 @@ font-size: 1.6rem;
     height: 100%;
     width: 100%;
     z-index: -1;
+Background-color:light yellow;
     opacity: 0.89;
 }
 #home h1{
@@ -160,6 +163,7 @@ font-size: 1.6rem;
 }
 #contact{
 position: relative;
+Background-color:grey;
 }
 Contact::before {
 Content:"";
