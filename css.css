@@ -160,7 +160,15 @@ font-size: 1.6rem;
 }
 #contact{
 position: relative;
-background-color: grey;
+}
+Contact::before {
+Content:"";
+Position: absolute;
+Width:100%
+Height:100%
+Z-index:-1;
+Opacity:0.7
+Background:url(contact.jpg)
 }
 #contact-box input,#contact-box textarea{
     width: 100%;
